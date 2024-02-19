@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#00BCD4">
+
+    <TextView
+        android:id="@+id/textViewRequestTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule Blood Donation"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextRequesterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:textColorHint="#ffff"
+        android:padding="16dp"
+        android:background="@drawable/edittext_rounded_bg"
+        android:textColor="#420101"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/blood_types"
+        android:prompt="@string/select_blood_type"
+        android:background="@drawable/edittext_rounded_bg"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/buttnSetDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Date"
+        android:textSize="18sp"
+        android:background="@drawable/button_rounded_bg"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Time"
+        android:textSize="18sp"
+        android:background="@drawable/button_rounded_bg"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and Time"
+        android:textSize="30sp"
+        android:textColor="#0E0E0E"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmitRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Request"
+        android:textSize="18sp"
+        android:background="@drawable/button_rounded_bg"
+        android:textColor="#020000"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

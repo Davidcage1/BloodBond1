@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AF0412"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        android:contentDescription="Registration"
+        android:padding="16dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffff"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#121111" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffff"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="#131313" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/editTextReenterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffff"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#090909" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffff"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:textColor="#090909" />
+
+    <Spinner
+        android:id="@+id/spinnerBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#F4EFEF"
+        android:entries="@array/blood_types"
+        android:padding="16dp"
+        android:prompt="@string/select_blood_type"
+        android:textColor="#121212" />
+
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#F4EFEF"
+        android:entries="@array/gender_options"
+        android:padding="16dp"
+        android:prompt="@string/select_gender"
+        android:textColor="#121212" />
+
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:background="#ffff"
+        android:padding="16dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BloodBond</string>
+    <string name="select_blood_type" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="select_gender"><![CDATA[<resources>\n    <!-- ... Other strings ... -->\n\n    <string name=\"select_gender\">Select Gender</string>\n\n    <string-array name=\"gender_options\">\n        <item>Male</item>\n        <item>Female</item>\n        <item>Other</item>\n    </string-array>\n</resources>\n]]></string>
+</resources>

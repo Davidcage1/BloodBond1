@@ -1,0 +1,38 @@
+<!-- item_hospital.xml -->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textViewHospitalName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#ffff"
+        android:textColor="#151515"/>
+
+    <TextView
+        android:id="@+id/textViewHospitalAddress"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#ffff"
+        android:textColor="#151515"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewHospitalDistance"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#ffff"
+        android:textColor="#151515"/>
+    <TextView
+        android:id="@+id/textviewbrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C"/>
+</LinearLayout>
